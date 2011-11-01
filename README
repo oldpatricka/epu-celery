@@ -1,0 +1,8 @@
+
+Launch a provisioner with 
+
+sh start-provisioner.sh
+
+and send a message to the provisioner with 
+
+CELERY_CONFIG_MODULE=epu.celeryproc.celeryconfig python provisionertest.py
